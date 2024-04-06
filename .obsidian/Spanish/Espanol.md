@@ -1,0 +1,1 @@
+"Siempre que enfrentes tribulaciones recivelas como si fueran alegria pura"

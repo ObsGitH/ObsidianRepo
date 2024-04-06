@@ -1,0 +1,1 @@
+Take one of the games of the Learn OOP website. Create your own version of it in C# console app. Then reimagine that game to a game with blazor UI. Post the game on github and Linkedin.

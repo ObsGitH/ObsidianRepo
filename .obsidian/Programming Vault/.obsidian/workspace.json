@@ -1,0 +1,199 @@
+{
+  "main": {
+    "id": "3c30937adfe26869",
+    "type": "split",
+    "children": [
+      {
+        "id": "75ef44a950404821",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e91b927d57b37f92",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSS Cheat Code.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "890319f5c5cb71d7",
+    "type": "split",
+    "children": [
+      {
+        "id": "052b4d689947b85f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "02492dd09a3b32dd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a274866cb304d868",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "bd6f3ff079820844",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 205.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "07106308dfb4b9d0",
+    "type": "split",
+    "children": [
+      {
+        "id": "f64a1abb1a43ed0e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "770257d3afea3ef8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CSS Cheat Code.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "77b66713855bc9b3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CSS Cheat Code.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9dc4749545901bfe",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "036f0326ea3e185c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CSS Cheat Code.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "e91b927d57b37f92",
+  "lastOpenFiles": [
+    "HTML,CSS,JAVAScript and DOM/HTML/HTML Cheat Sheet.md",
+    "CSS Cheat Code.md",
+    "[.md",
+    "HTML,CSS,JAVAScript and DOM/CSS/Inline and  Blocks.md",
+    "HTML,CSS,JAVAScript and DOM/HTML/Html Basics/The Basic Structure of HTML.md",
+    "Untitled.canvas",
+    "2024-03-22.md",
+    "READ THIS HOW MANY TIMES NECESSARY.md",
+    "Job Related/O Que Contratantes Querem Q Eu Saiba.md",
+    "HTML,CSS,JAVAScript and DOM/How To Plan Your Website.md",
+    "HTML,CSS,JAVAScript and DOM/Tools And Setup/Tools And Setup.md",
+    "HowToStudy/While Studying.md",
+    "HowToStudy/While Not Studying.md",
+    "HowToStudy/Examples of Attention Residue.md",
+    "FutureSubjects/How I Will Learn WPF.md",
+    "C# Projects/Create a Game With Blazor.md",
+    "Projects.md",
+    "DotNet Tutorials Csharp Summary/CSharp new Features/CSharp 7.0 New Features.md",
+    "DotNet Tutorials Csharp Summary/CSharp new Features/CSharp 8.0 New Features.md",
+    "DotNet Tutorials Csharp Summary/Var, Dynamic and Reflection/Var, Dynamic, Reflection, Volatile, Ref and Out, Named Parameters.md",
+    "Life Wisdown/Os 15 Mandamentos.md",
+    "Life Wisdown/Great Advice To Be A Man From A Father of 4 Children.md",
+    "DotNet Tutorials Csharp Summary/Collections and Array/Understanding Collections and Array in a General Sense.md",
+    "DotNet Tutorials Csharp Summary/DotNetFramework Architecture And Domain/Everything Else About DotNet.md",
+    "DotNet Tutorials Csharp Summary/Missing Chapters.md",
+    "DotNet Tutorials Csharp Summary/DotNetFramework Architecture And Domain/Common Language Runtime in DotNet.md",
+    "DotNet Tutorials Csharp Summary/Optional Parameters, Indexers and Enumerations.md",
+    "C# Projects",
+    "HTML,CSS,JAVAScript and DOM/MultiMedia/Pasted image 20240226214025.png",
+    "HTML,CSS,JAVAScript and DOM/Projects",
+    "Life Wisdown",
+    "HTML,CSS,JAVAScript and DOM/DOM (Document Object Model)",
+    "HTML,CSS,JAVAScript and DOM/HTML/Html Basics",
+    "HTML,CSS,JAVAScript and DOM/Tools And Setup",
+    "HTML,CSS,JAVAScript and DOM/MultiMedia",
+    "HTML,CSS,JAVAScript and DOM/MultiMedia/Pasted image 20240212155738.png",
+    "HTML,CSS,JAVAScript and DOM/JAVAScript",
+    "HTML,CSS,JAVAScript and DOM/CSS",
+    "HTML,CSS,JAVAScript and DOM/HTML",
+    "DotNet Tutorials Csharp Summary/Images/SyncAndAsync.webp",
+    "DotNet Tutorials Csharp Summary/Images/ParallelOverheadSimultaneous1.webp",
+    "DotNet Tutorials Csharp Summary/Images/ParallelOverheadSequential2.webp",
+    "DotNet Tutorials Csharp Summary/Images/ParallelOverheadSequential1.webp",
+    "DotNet Tutorials Csharp Summary/Images/Only1Pattern.webp",
+    "DotNet Tutorials Csharp Summary/Images/Only1Pattern2.webp",
+    "DotNet Tutorials Csharp Summary/Images/GenericOnly1Pattern.webp"
+  ]
+}

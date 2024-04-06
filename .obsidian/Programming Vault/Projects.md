@@ -1,0 +1,1 @@
+1. Use the File Handling Classes: `FileStream`, `StreamWriter`, `StreamReader`, `TextWriter`, `TextReader`, `BinaryWriter`, `BinaryReader`, `StringWriter`, `StringReader`, `File`, `Directory`, `Drive`, `Path`, `FileInfo` and `DirectoryInfo` to create a sort of Windows Explorer, not really do but you get what I mean: an app in the same spirit of Windows Explorer.

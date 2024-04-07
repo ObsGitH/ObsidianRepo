@@ -13,7 +13,11 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD:ObsidianVault/.obsidian/workspace.json
                 "file": "TestingGit/I Am Currently Loving to Learn How GitHub Works.md",
+=======
+                "file": "Books/Practical Knowledge/Psychology/The Crowd.md",
+>>>>>>> 7f34a0cdc679b42ce8f51dbcd9b46fa190f80c4c:.obsidian/.obsidian/workspace.json
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +89,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD:ObsidianVault/.obsidian/workspace.json
                 "file": "TestingGit/I Am Currently Loving to Learn How GitHub Works.md",
+=======
+                "file": "Books/Practical Knowledge/Psychology/The Crowd.md",
+>>>>>>> 7f34a0cdc679b42ce8f51dbcd9b46fa190f80c4c:.obsidian/.obsidian/workspace.json
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +110,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD:ObsidianVault/.obsidian/workspace.json
                 "file": "TestingGit/I Am Currently Loving to Learn How GitHub Works.md",
+=======
+                "file": "Books/Practical Knowledge/Psychology/The Crowd.md",
+>>>>>>> 7f34a0cdc679b42ce8f51dbcd9b46fa190f80c4c:.obsidian/.obsidian/workspace.json
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,11 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< HEAD:ObsidianVault/.obsidian/workspace.json
                 "file": "TestingGit/I Am Currently Loving to Learn How GitHub Works.md"
+=======
+                "file": "Books/Practical Knowledge/Psychology/The Crowd.md"
+>>>>>>> 7f34a0cdc679b42ce8f51dbcd9b46fa190f80c4c:.obsidian/.obsidian/workspace.json
               }
             }
           }
@@ -146,10 +162,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "699428b6e78559c1",
+  "active": "3f78e0f79d132ff5",
   "lastOpenFiles": [
+<<<<<<< HEAD:ObsidianVault/.obsidian/workspace.json
     "TestingGit/I Am Currently Loving to Learn How GitHub Works.md",
     "TestingGit",
+=======
+    "Books/Practical Knowledge/Psychology/The Masterplan.md",
+    "Books/Practical Knowledge/Psychology/The Moral Animal.md",
+    "Books/Practical Knowledge/Psychology/The Crowd.md",
+    "Books/Practical Knowledge/Psychology/How To WFIP.md",
+    "Books/ProgrammingBooks",
+    "Books/Practical Knowledge/The Prince.md",
+    "PussyCunt",
+>>>>>>> 7f34a0cdc679b42ce8f51dbcd9b46fa190f80c4c:.obsidian/.obsidian/workspace.json
     "ObsidianNotes"
   ]
 }

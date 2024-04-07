@@ -108,7 +108,50 @@ to extremes--Their sentiments always excessive
 4.  THE INTOLERANCE, DICTATORIALNESS, AND CONSERVATISM OF CROWDS. --The momentary revolutionary instincts of crowds do not prevent them from being extremely conservative--Crowds instinctively hostile to changes and progress.
 5. The Morality of Crowds: may be much higher or much lower than that of the individuals composing them.
 
+This moralisation of the individual by the crowd is not certainly a constant rule, but it is a rule frequently observed. If, then, crowds often abandon themselves to low instincts, they also set the example at times of acts of lofty morality.  If disinterestedness, resignation, and absolute devotion to a real or chimerical ideal are moral virtues, it may be said that crowds often possess these virtues to a degree rarely attained by the wisest philosophers.
+
 ## Chapter 3 The Ideas, Reasoning Power, And Imagination Of Crowds
+
+- THE IDEAS OF CROWDS.  Fundamental and accessory ideas--How contradictory ideas may exist simultaneously--The transformation that must be undergone by lofty ideas before they are accessible to crowds-- The social influence of ideas is independent of the degree of truth they may contain.  
+	- They may be divided into two classes.  In one we shall place
+		accidental and passing ideas created by the influences of the
+		moment: infatuation for an individual or a doctrine, for
+		instance.  In the other will be classed the fundamental ideas, to
+		which the environment, the laws of hereditary tendencies of a race and public opinion
+		give a very great stability; such ideas are the religious beliefs
+		of the past and the social and democratic ideas of to-day.
+	- Whatever be the ideas suggested to crowds they can only exercise
+		effective influence on condition that they assume a very
+		absolute, uncompromising, and simple shape.  They present
+		themselves then in the guise of images , and are only accessible
+		to the masses under this form.  These images have no logical bond/connection with each other, which explains how they can hold contradictory ideas. According to the chances of the moment, a crowd will come under the influence of one of the various ideas stored up in its understanding, and is capable, in consequence, of committing the most dissimilar acts.
+		- Individuals can also hold/generate contradictory ideas and actions. These contradictions are more apparent than real, for it is only hereditary ideas that have sufficient influence over the isolated individual to become motives of conduct.  It is only when, as the result of the intermingling of different races, a man is placed between different hereditary tendencies that his acts from one moment to another may be really entirely contradictory.
+	- Ideas can only be popular for crowds in they are simple. These modifications are dependent on the nature of the crowds, or of the race to which the crowds belong, but their tendency is always belittling and in the direction of simplification.
+	- There are no hierarchy of ideas in crowds, for them all ideas are equally great and/or truthful to every other idea that they possess. However great or true an idea may have been to begin with, it is deprived of almost all that which constituted its elevation and its greatness by the mere fact that it has come within the intellectual range of crowds (crowds are dumb) and exerts an influence upon them.
+		- Moreover, from the social point of view the hierarchical value of an idea, its intrinsic worth, is without importance. The necessary point to consider is the effects it produces.   Christianism, Feminism, Democratic Ideas philosophically speaking are pathetic and full of flaws, and yet their power has been and will be immense, and they will count for a long time to come among the most essential factors that determine the conduct of States.
+	- Even when an idea has been dumbed down to be accessible to crowds they only exert their influence when, through some processes, those ideas become a sentiment to the crowd.
+		- Evidence, if it be very plain, may be accepted by an educated person, but they will be quickly brought back by their unconscious self to their original conceptions. This is because the evidence you presented are just ideas, but his original ideas are to him a sentiment. In a couple of days they will say the same arguments they have always said, completely disregarding your evidence like they've never heard it.
+		- A long time is necessary for ideas to establish themselves in the minds of crowds, but just as long a time is needed for them to be eradicated.  For this reason crowds, as far as ideas are concerned, are always several generations behind learned men and philosophers.
+		- 
+- THE REASONING POWER OF CROWDS.  Crowds are not to be influenced by reasoning--The reasoning of crowds is always of a very inferior order--There is only the appearance of analogy or succession in the ideas they associate.   
+	- the arguments crowds employ and those which are capable of influencing them are, from a logical point of view, of such an inferior kind that it is only by way of analogy that they can be described as reasoning.
+	- Crowds have poor association of ideas. there are only apparent bonds of analogy or succession.
+	- Crowds associate dissimilar things possessing a merely apparent connection between each other, and the immediate generalisation of particular cases. Like a workman who, having been exploited by one employer of labour, immediately concludes that all employers exploit their men.  It is arguments of this kind that are always presented to crowds by those who know how to manage them.
+	- Crowds do not reason or that they reason falsely and are not to be influenced by reasoning. A chain of logical argumentation is totally incomprehensible to crowds.
+	- the powerlessness of crowds to reason aright prevents them displaying any trace of the critical spirit, prevents them, that is, from being capable of discerning truth from error, or of forming a precise judgment on any matter.
+	- Judgments accepted by crowds are merely judgments forced upon them and never judgments adopted after discussion.
+	- The ease with which certain opinions obtain general acceptance results more especially from the impossibility experienced by the majority of men of forming an opinion peculiar to themselves and based on reasoning of their own.
+- THE IMAGINATION OF CROWDS. Strength of the imagination of crowds--Crowds think in images, and these images succeed each other without any connecting link--Crowds are especially impressed by the marvellous--Legends and the marvellous are the real pillars of civilisation--The popular imagination has always been the basis of the power of statesmen--The manner in which facts capable of striking the imagination of crowds present themselves for observation.
+	- Crowds are to some extent in the position of the sleeper whose reason, suspended for the time being, allows the arousing in his mind of images of extreme intensity which would quickly be dissipated could they be submitted to the action of reflection. Crowds, being incapable both of reflection and of reasoning, are devoid of the notion of improbability; and it is to be noted that in a general way it is the most improbable things that are the most striking.
+	- Appearances have always played a much more important part than reality in history, where the unreal is always of greater moment than the real.
+	- Crowds are specially in awe by the dramatization of events.
+	-   It is only images that terrify or attract crowds and become motives of action.
+		- That is why movies and media in general are so good for social engineering and indoctrination. The entire audience experiences at the same time the same emotions, and if these emotions are not at once transformed into acts, it is because the most unconscious spectator cannot ignore that he is the victim of illusions, and that he has laughed or wept over imaginary adventures. If he didn't realize they were illusions those emotions would become acts.
+			- Sometimes the emotion generated by the images is so strong that they are transformed into acts even if the individual knows that they are not real.
+	- The unreal has almost as much influence on the crowd as the real.  They have an evident tendency not to distinguish between the two.
+	- The power of conquerors and the strength of States is based on creating strong impressions on the popular imagination. In order to rule over people you must impress their imagination.
+		- You should never try to impress a crowd/ideological individual with logic or reasoning. Whatever strikes the imagination of crowds presents itself under the shape of a startling and very clear image, freed from all accessory explanation, or merely having as accompaniment a few marvellous or mysterious facts: examples in point are a great victory, a great miracle, a great crime, or a great hope. Things must be laid before the crowd as a whole, and their genesis must never be indicated.  A hundred petty crimes or petty accidents will not strike the imagination of crowds in the least, whereas a single great crime or a single great accident will profoundly impress them, even though the results be infinitely less disastrous than those of the hundred small accidents put together.
+		- It is not, then, the facts in themselves that strike the popular imagination, but the way in which they take place and are brought under notice.  It is necessary that by their condensation, if I may thus express myself, they should produce a startling image which fills and besets the mind.  To know the art of impressing the imagination of crowds is to know at the same time the art of governing them.
 
 ## Chapter 4 A Religious Shape Assumed By All The Convictions Of Crowds
 

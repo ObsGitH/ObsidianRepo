@@ -1,22 +1,18 @@
 {
   "main": {
-    "id": "c313e22af4f2cbb3",
+    "id": "737c41ceec681f7d",
     "type": "split",
     "children": [
       {
-        "id": "4d02220f1d5c1420",
+        "id": "ef2826e3c4162c88",
         "type": "tabs",
         "children": [
           {
-            "id": "3f78e0f79d132ff5",
+            "id": "f440980cabbefa6a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Books/Practical Knowledge/Psychology/The Crowd.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -25,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "5af61ed4c44b4fac",
+    "id": "be28f74c52058d01",
     "type": "split",
     "children": [
       {
-        "id": "834a134e0c1379e2",
+        "id": "9fd7d3eea53143d7",
         "type": "tabs",
         "children": [
           {
-            "id": "699428b6e78559c1",
+            "id": "c5d0754ae693df8f",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +39,7 @@
             }
           },
           {
-            "id": "2ec825e9fa6b843e",
+            "id": "0a0e5c98f5da301f",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +54,7 @@
             }
           },
           {
-            "id": "6c35222152ad5088",
+            "id": "10fcc95b667ef60f",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -69,23 +65,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
-    "id": "de16afea5e252f0b",
+    "id": "667738e31a9052a4",
     "type": "split",
     "children": [
       {
-        "id": "3381e94311850d5e",
+        "id": "ec9e27b4ee61fae7",
         "type": "tabs",
         "children": [
           {
-            "id": "caec3a773fcd2de4",
+            "id": "89bb5be23c9777a6",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/Practical Knowledge/Psychology/The Crowd.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +93,18 @@
             }
           },
           {
-            "id": "a79d141e6b750bd4",
+            "id": "7365ef9a9b74255a",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/Practical Knowledge/Psychology/The Crowd.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "0312123f05d3459f",
+            "id": "6dbfbb1cc7b114d7",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,13 +115,11 @@
             }
           },
           {
-            "id": "889c1a7ddc8f26d1",
+            "id": "e192b1859f3f84a8",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Books/Practical Knowledge/Psychology/The Crowd.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,15 +139,6 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3f78e0f79d132ff5",
-  "lastOpenFiles": [
-    "Books/Practical Knowledge/Psychology/The Masterplan.md",
-    "Books/Practical Knowledge/Psychology/The Moral Animal.md",
-    "Books/Practical Knowledge/Psychology/The Crowd.md",
-    "Books/Practical Knowledge/Psychology/How To WFIP.md",
-    "Books/ProgrammingBooks",
-    "Books/Practical Knowledge/The Prince.md",
-    "PussyCunt",
-    "ObsidianNotes"
-  ]
+  "active": "c5d0754ae693df8f",
+  "lastOpenFiles": []
 }

@@ -1,20 +1,16 @@
 {
   "main": {
-    "id": "737c41ceec681f7d",
+    "id": "c313e22af4f2cbb3",
     "type": "split",
     "children": [
       {
-        "id": "ef2826e3c4162c88",
+        "id": "4d02220f1d5c1420",
         "type": "tabs",
         "children": [
           {
-            "id": "f440980cabbefa6a",
+            "id": "3f78e0f79d132ff5",
             "type": "leaf",
             "state": {
-<<<<<<< HEAD
-              "type": "empty",
-              "state": {}
-=======
               "type": "markdown",
               "state": {
 <<<<<<< HEAD:ObsidianVault/.obsidian/workspace.json
@@ -25,7 +21,6 @@
                 "mode": "source",
                 "source": false
               }
->>>>>>> 81bd5622a6d59fbdb8e2f2001ed34e42a80e05d1
             }
           }
         ]
@@ -34,15 +29,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "be28f74c52058d01",
+    "id": "5af61ed4c44b4fac",
     "type": "split",
     "children": [
       {
-        "id": "9fd7d3eea53143d7",
+        "id": "834a134e0c1379e2",
         "type": "tabs",
         "children": [
           {
-            "id": "c5d0754ae693df8f",
+            "id": "699428b6e78559c1",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -52,7 +47,7 @@
             }
           },
           {
-            "id": "0a0e5c98f5da301f",
+            "id": "2ec825e9fa6b843e",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -67,7 +62,7 @@
             }
           },
           {
-            "id": "10fcc95b667ef60f",
+            "id": "6c35222152ad5088",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,31 +73,27 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
-    "id": "667738e31a9052a4",
+    "id": "de16afea5e252f0b",
     "type": "split",
     "children": [
       {
-        "id": "ec9e27b4ee61fae7",
+        "id": "3381e94311850d5e",
         "type": "tabs",
         "children": [
           {
-            "id": "89bb5be23c9777a6",
+            "id": "caec3a773fcd2de4",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-=======
 <<<<<<< HEAD:ObsidianVault/.obsidian/workspace.json
                 "file": "TestingGit/I Am Currently Loving to Learn How GitHub Works.md",
 =======
                 "file": "Books/Practical Knowledge/Psychology/The Crowd.md",
 >>>>>>> 7f34a0cdc679b42ce8f51dbcd9b46fa190f80c4c:.obsidian/.obsidian/workspace.json
->>>>>>> 81bd5622a6d59fbdb8e2f2001ed34e42a80e05d1
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,26 +105,23 @@
             }
           },
           {
-            "id": "7365ef9a9b74255a",
+            "id": "a79d141e6b750bd4",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD
-=======
 <<<<<<< HEAD:ObsidianVault/.obsidian/workspace.json
                 "file": "TestingGit/I Am Currently Loving to Learn How GitHub Works.md",
 =======
                 "file": "Books/Practical Knowledge/Psychology/The Crowd.md",
 >>>>>>> 7f34a0cdc679b42ce8f51dbcd9b46fa190f80c4c:.obsidian/.obsidian/workspace.json
->>>>>>> 81bd5622a6d59fbdb8e2f2001ed34e42a80e05d1
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "6dbfbb1cc7b114d7",
+            "id": "0312123f05d3459f",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -144,13 +132,10 @@
             }
           },
           {
-            "id": "e192b1859f3f84a8",
+            "id": "889c1a7ddc8f26d1",
             "type": "leaf",
             "state": {
               "type": "outline",
-<<<<<<< HEAD
-              "state": {}
-=======
               "state": {
 <<<<<<< HEAD:ObsidianVault/.obsidian/workspace.json
                 "file": "TestingGit/I Am Currently Loving to Learn How GitHub Works.md"
@@ -158,7 +143,6 @@
                 "file": "Books/Practical Knowledge/Psychology/The Crowd.md"
 >>>>>>> 7f34a0cdc679b42ce8f51dbcd9b46fa190f80c4c:.obsidian/.obsidian/workspace.json
               }
->>>>>>> 81bd5622a6d59fbdb8e2f2001ed34e42a80e05d1
             }
           }
         ]
@@ -178,10 +162,6 @@
       "command-palette:Open command palette": false
     }
   },
-<<<<<<< HEAD
-  "active": "c5d0754ae693df8f",
-  "lastOpenFiles": []
-=======
   "active": "3f78e0f79d132ff5",
   "lastOpenFiles": [
 <<<<<<< HEAD:ObsidianVault/.obsidian/workspace.json
@@ -198,5 +178,4 @@
 >>>>>>> 7f34a0cdc679b42ce8f51dbcd9b46fa190f80c4c:.obsidian/.obsidian/workspace.json
     "ObsidianNotes"
   ]
->>>>>>> 81bd5622a6d59fbdb8e2f2001ed34e42a80e05d1
 }

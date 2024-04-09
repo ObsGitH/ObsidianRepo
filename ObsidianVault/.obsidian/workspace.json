@@ -1,31 +1,22 @@
 {
   "main": {
-    "id": "737c41ceec681f7d",
+    "id": "7481b309fd1c2c81",
     "type": "split",
     "children": [
       {
-        "id": "ef2826e3c4162c88",
+        "id": "d7397a264de92845",
         "type": "tabs",
         "children": [
           {
-            "id": "f440980cabbefa6a",
+            "id": "18487c92e4a803c8",
             "type": "leaf",
             "state": {
-<<<<<<< HEAD
-              "type": "empty",
-              "state": {}
-=======
               "type": "markdown",
               "state": {
-<<<<<<< HEAD:ObsidianVault/.obsidian/workspace.json
-                "file": "TestingGit/I Am Currently Loving to Learn How GitHub Works.md",
-=======
-                "file": "Books/Practical Knowledge/Psychology/The Crowd.md",
->>>>>>> 7f34a0cdc679b42ce8f51dbcd9b46fa190f80c4c:.obsidian/.obsidian/workspace.json
+                "file": "Programming Vault/CSS Cheat Code.md",
                 "mode": "source",
                 "source": false
               }
->>>>>>> 81bd5622a6d59fbdb8e2f2001ed34e42a80e05d1
             }
           }
         ]
@@ -34,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "be28f74c52058d01",
+    "id": "91ce5644fa961747",
     "type": "split",
     "children": [
       {
-        "id": "9fd7d3eea53143d7",
+        "id": "9cb2bca69bb18263",
         "type": "tabs",
         "children": [
           {
-            "id": "c5d0754ae693df8f",
+            "id": "6546450c0515c21a",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -52,7 +43,7 @@
             }
           },
           {
-            "id": "0a0e5c98f5da301f",
+            "id": "51ff2e37b5f425ba",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -67,7 +58,7 @@
             }
           },
           {
-            "id": "10fcc95b667ef60f",
+            "id": "68f5345db8f0db7d",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,31 +69,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
-    "id": "667738e31a9052a4",
+    "id": "4a0f53b77a66780e",
     "type": "split",
     "children": [
       {
-        "id": "ec9e27b4ee61fae7",
+        "id": "29a18a414513cc49",
         "type": "tabs",
         "children": [
           {
-            "id": "89bb5be23c9777a6",
+            "id": "a1d4f80abfc1094b",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD:ObsidianVault/.obsidian/workspace.json
-                "file": "TestingGit/I Am Currently Loving to Learn How GitHub Works.md",
-=======
-                "file": "Books/Practical Knowledge/Psychology/The Crowd.md",
->>>>>>> 7f34a0cdc679b42ce8f51dbcd9b46fa190f80c4c:.obsidian/.obsidian/workspace.json
->>>>>>> 81bd5622a6d59fbdb8e2f2001ed34e42a80e05d1
+                "file": "Programming Vault/CSS Cheat Code.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,26 +97,19 @@
             }
           },
           {
-            "id": "7365ef9a9b74255a",
+            "id": "26ed236bca11d9c4",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD:ObsidianVault/.obsidian/workspace.json
-                "file": "TestingGit/I Am Currently Loving to Learn How GitHub Works.md",
-=======
-                "file": "Books/Practical Knowledge/Psychology/The Crowd.md",
->>>>>>> 7f34a0cdc679b42ce8f51dbcd9b46fa190f80c4c:.obsidian/.obsidian/workspace.json
->>>>>>> 81bd5622a6d59fbdb8e2f2001ed34e42a80e05d1
+                "file": "Programming Vault/CSS Cheat Code.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "6dbfbb1cc7b114d7",
+            "id": "3afa7333fff2f58f",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -144,21 +120,13 @@
             }
           },
           {
-            "id": "e192b1859f3f84a8",
+            "id": "2fd354598433bb16",
             "type": "leaf",
             "state": {
               "type": "outline",
-<<<<<<< HEAD
-              "state": {}
-=======
               "state": {
-<<<<<<< HEAD:ObsidianVault/.obsidian/workspace.json
-                "file": "TestingGit/I Am Currently Loving to Learn How GitHub Works.md"
-=======
-                "file": "Books/Practical Knowledge/Psychology/The Crowd.md"
->>>>>>> 7f34a0cdc679b42ce8f51dbcd9b46fa190f80c4c:.obsidian/.obsidian/workspace.json
+                "file": "Programming Vault/CSS Cheat Code.md"
               }
->>>>>>> 81bd5622a6d59fbdb8e2f2001ed34e42a80e05d1
             }
           }
         ]
@@ -178,25 +146,13 @@
       "command-palette:Open command palette": false
     }
   },
-<<<<<<< HEAD
-  "active": "c5d0754ae693df8f",
-  "lastOpenFiles": []
-=======
-  "active": "3f78e0f79d132ff5",
+  "active": "18487c92e4a803c8",
   "lastOpenFiles": [
-<<<<<<< HEAD:ObsidianVault/.obsidian/workspace.json
-    "TestingGit/I Am Currently Loving to Learn How GitHub Works.md",
-    "TestingGit",
-=======
-    "Books/Practical Knowledge/Psychology/The Masterplan.md",
-    "Books/Practical Knowledge/Psychology/The Moral Animal.md",
-    "Books/Practical Knowledge/Psychology/The Crowd.md",
-    "Books/Practical Knowledge/Psychology/How To WFIP.md",
-    "Books/ProgrammingBooks",
-    "Books/Practical Knowledge/The Prince.md",
-    "PussyCunt",
->>>>>>> 7f34a0cdc679b42ce8f51dbcd9b46fa190f80c4c:.obsidian/.obsidian/workspace.json
-    "ObsidianNotes"
+    "Programming Vault/HTML,CSS,JAVAScript and DOM/Web Mechanics/WebPage, WebSite, WebServer and SearchEngine.md",
+    "Programming Vault/HTML,CSS,JAVAScript and DOM/Web Mechanics/Web Server.md",
+    "Programming Vault/HTML,CSS,JAVAScript and DOM/How To Plan Your Website.md",
+    "Programming Vault/HTML,CSS,JAVAScript and DOM/Web Mechanics/URL, HTTP, HTML and HyperLinks.md",
+    "Programming Vault/HTML,CSS,JAVAScript and DOM/Web Mechanics/How Does The Internet and Web Work.md",
+    "Programming Vault/CSS Cheat Code.md"
   ]
->>>>>>> 81bd5622a6d59fbdb8e2f2001ed34e42a80e05d1
 }

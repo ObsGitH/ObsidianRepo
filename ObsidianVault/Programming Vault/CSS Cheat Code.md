@@ -1,4 +1,4 @@
-
+	
 # What Do You Need To Know?
 
 ## Theoretical CSS
@@ -517,7 +517,7 @@ Text styling fundamentals - setting font, boldness, italics, line and letter spa
 				- Default: `2.5em`== `40px`
 				- `<dl>` has no default for `padding`
 			- `dir`
-				- Default: `rtl`
+				- Default: `ltr`
 			- `<li>` html element has no default for spacing
 			- - HTML Attributes
 				- `start="number"` HTML attribute allows you to start the list item count with the number the you pass to it.

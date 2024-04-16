@@ -1,4 +1,4 @@
-
+	
 # What Do You Need To Know?
 
 ## Theoretical CSS
@@ -12,8 +12,8 @@
 - What are CSS shorthands?
 - What does DOM stands for?
 - Explain the DOM in simple general terms.
-- Explain how a Web page is loaded. Tip: it involves HTML, DOM, JavaScript, CSS, different buckets for different CSS rules, how HTML becomes DOM, how the css that applies to each node in the DOM tree is selected, etc. [answer](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_works)
-
+- Explain how a Web page is loaded. Tip: it involves HTML, DOM,  CSS, different buckets for different CSS rules, how HTML becomes DOM, how the css that applies to each node in the DOM tree is selected, etc. [answer](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_works)
+- Explain Web Mechanncs. [[How Does The Internet and Web Work]]
 
 - When a browser finds selectors or properties that it does not understand they are simply ignored by the browser when loading the webpage.
 - CSS is divided into modules that contain properties that relate to each other in a certain way. You can check out the modules in MDN.
@@ -27,7 +27,7 @@
 - Box Model: CSS elements all have a box around it. 
 	- `block` - this box model always appear in a new line, always respects the `width` and `height` property values; changing `padding`, `margin` and `border` will always make other elements be pushed away from the box and If [`width`](https://developer.mozilla.org/en-US/docs/Web/CSS/width) is not specified, the box will extend in the inline direction to fill the space available in its container.
 	- `inline` - does not appear in a new line, `width` and `height` do not apply, `Top and bottom padding, margins, and borders` will apply but will not cause other inline boxes to move away from the box and `Left and right padding, margins, and borders` will apply and will cause other inline boxes to move away from the box.
-	- `inline-block` - mix of both: respects `width` and `height` (`block` box model) and `margin`, `border` and `padding` (both box models), but does not break onto a new line (like the `inline` box model and not like the `block` box model).
+	- `inline-block` - mix of both: respects `width` and `height` (`block` box model) and `margin`, `border` and `padding` behave like the block element box model, but does not break onto a new line like the `inline` box model .
 	- Inner and Outer Display: The outer display of a element is it's default box model and cannot be changed. But you can change the inner display with the `display` property.
 	- - Parts of a box: in the Box Model  
 		- 1.content : the rectangle/box where your content is displayed (`width` and `height` CSS properties define the size of this rectangle), 
@@ -35,9 +35,7 @@
 		3. Border: line that separates padding and margin and 
 		4. Margin: space between this element's box and another element's box.
 			- If 2 element's margins there will be Margin Collapse:
-				- Two positive margins will combine to become one margin. Its size will be equal to the largest individual margin.
-				- Two negative margins will collapse and the smallest (furthest from zero) value will be used.
-				- If one margin is negative, its value will be _subtracted_ from the total.
+				- If two margins that touch each other have both positive values the margin will collapse as the margin with the bigger value. If both of them are negative they will collapse into the one with the smallest value and if one is positive and the other negative the resulting margin is the positive value - the negative one.
 		```CSS
 		.box {
 		  width: 350px;
@@ -61,7 +59,7 @@
 	- When you create a BFC the content of  an element box acquire a self-contained layout. Nothing outside the element's box can poke  at the surrounding layout and vice-versa.
 
 - Overflow
-	- Overflow happens when there is too much content to fit in a box. You can consider this box the viewport or a block level element.
+	- Overflow happens when there is too much content to fit in a box that a fixed sized. Examples of this are the viewport, a block level element and any other element that has a box model that respects `width` and `height`  and have absolute units for these 2 properties.
 	- CSS always tries to avoid data loss by default. Therefore the content that cannot fit inside a box will  break out of the box and leak to the rest of the webpage.
 
 
@@ -72,6 +70,7 @@
 		- `<length>` - represents a distance value.
 		- Relative Length Units
 			- `em` Font size of the parent, in the case of typographical properties like `font-size`, and font size of the element itself, in the case of other properties like `width`.
+				- The default element's font size is inherited from their parent. Therefore all elements have the same font-size as the `html` element in the beginning.
 			- `ex`x-height of the element's font.
 			- `ch`The advance measure (width) of the glyph "0" of the element's font.|
 			- `rem`Font size of the root  element (`html` selector or `:root` pseudo-class selector that will usually target the `html` element anyways).
@@ -101,7 +100,7 @@
 		- Others that I will not bother explaining: There are several color functions that include a [`<hue>`](https://developer.mozilla.org/en-US/docs/Web/CSS/hue) component, including `hsl()`,`hwb()`, and [`lch()`](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/lch). Other color functions, like [`lab()`](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/lab), define colors based on what humans can see.
 	- `<image>` - value used when the property accepts an image as a value like `background` for example.
 	- `<positi0n>` - represents a set of 2D coordinates for an item
-		- `top`, `bottom`, `left`, `rigth`, `center`, `etc`
+		- `top`, `bottom`, `left`, `rigth`, `center`, `etc` -these are identifiers.
 	- Identifiers - strings that serve as aliases to values that CSS can understand. All `<named-colors>` values are identifiers.
 	- Strings - values that are usually used with generated content which usually happens when you are selecting pseudo-classes/elements. This values, literally, strings: "this is a string value". `content` property takes a string value for example.
 
@@ -114,23 +113,23 @@
 	- `1vw` / `1vh` are equal to 1% of the viewport's width/height and can be very helpful to determine the size of boxes and text. `font-size: vw` will ensure that the font-size will remain consistent in different viewports for example. 
 
 
-- Images, Media and Form Elements
-- These items behave kinda weird so it's important to learn about them separately.
-	- These items are **Replaced Elements** meaning there internal layout cannot be altered by CSS.
-	- in a flex or grid layout, elements are stretched by default to fill the entire area. Images will not stretch, and instead will be aligned to the start of the grid area or flex container.
-- There is a whole fucking [mdn module](https://developer.mozilla.org/en-US/docs/Learn/Forms) for styling forms.
-- Since form elements use different box sizing rules for different widgets, it is a good idea to set margins and padding to `0` on all elements, then add these back in when styling particular controls
-```css
-button,
-input,
-select,
-textarea {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-```
-- Set `overflow` property to `auto` in `textarea` elements to add the scroll bar if the element gets too big.
+- MultiMedia and Form Elements
+	- These items behave kinda weird so it's important to learn about them separately.
+		- These items are **Replaced Elements** meaning there internal layout cannot be altered by CSS. (you cannot change their inner display.)
+		- In a flex or grid layout, elements are stretched by default to fill the entire area. Images will not stretch, and instead will be aligned to the start of the grid area or flex container.
+	- There is a whole fucking [mdn module](https://developer.mozilla.org/en-US/docs/Learn/Forms) for styling forms.
+	- Since form elements use different box sizing rules for different widgets, it is a good idea to set margins and padding to `0` on all elements, then add these back in when styling particular controls
+	```css
+	button,
+	input,
+	select,
+	textarea {
+	  box-sizing: border-box;
+	  padding: 0;
+	  margin: 0;
+	}
+	```
+	- Set `overflow` property to `auto` in `textarea` elements to add the scroll bar if the element gets too big.
 
 
 - Debugging CSS
@@ -162,18 +161,18 @@ textarea {
 	- add fallback properties for old browsers that do not support the new properties.
 	- Separated rules into sections separated by CSS comments:
 		- General Styles (Rules that define a general style for a certain element), 
-		- Utilities(Theses styles will change a lot of elements. Select a certain class ),
+		- Utilities(Theses styles will change a lot of elements. They select a certain class of elements for example. ),
 		- SiteWide (Selectors that will style the whole site like header and nav styling)
 		- Finally  include CSS sections for specific things, broken down by the context, page, or even component in which they are used.
 	- Avoid overly-specific selectors
 	- Break large stylesheets into smaller ones
-	- Define Variables
-		- CSS now has native [custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties), making this feature increasingly less important. But variables allow you to, if you realize you have used the wrong shade of blue, you only need change it in one place.
+	- Define Custom Properties
+		- CSS now has native [custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties).  if you realize you have used the wrong shade of blue, you only need change it in one place.
 ```css
-$base-color: #c6538c;
-
-.alert {
-  border: 1px solid $base-color;
+@property --my-color {
+	syntax: "<color>";
+	inherits: false;
+	initial-value: #3f4ddd;
 }
 
 ```
@@ -190,13 +189,13 @@ $base-color: #c6538c;
 		- Where quotes can or should be included, use them, and use double quotes.
 		- shorthands are usually better than longhands
 			- It is often harder to understand what the shorthand is doing.
-			- With shorthands default values are set for parts of the syntax that you don't explicitly set, which can produce unexpected resets of values you've set earlier in the cascade or other expected effects.
+			- With shorthands default values are set for parts of the syntax that you don't explicitly set, which can produce unexpected resets of values you've set earlier in the cascade or other undesired effects.
 			- Some shorthands only work as expected if you include the values in a certain order. Like the `animation` property.
 		- In a stylesheet that contains [media query](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries) styles to target different viewport sizes, first include the narrow screen/mobile styling before any other media queries are encountered. Add styling for wider viewport sizes via successive media queries.
 		- Don't use ID selectors because they are:
 			- less flexible; you can't add more if you discover you need more than one.
 			- harder to override because they have higher specificity than classes.
-			- When turning off properties that can take `0` or `none` as values, use `0` rather than `none`. Usually done to `border` property.
+		- When turning off properties that can take `0` or `none` as values, use `0` rather than `none`. Usually done to `border` property.
 ## Practical CSS
 - `/*comments*/` - to write comments.
 - Selectors and Combinators
@@ -221,8 +220,8 @@ $base-color: #c6538c;
 		- `[attr*=value]` - Matches elements with an _`attr`_ attribute whose value contains _`value`_ anywhere within the string.
 		- `li[class^="a" i]` - the `i` means that it's looking for a **case insesitive** match, meaning a `class` attribute that begins it's value with the string a or A.
 	- Combinators
-		- `ul em` selects all `em` elements that are ancestors of a `ul` element. !!! the `em` elements do not need to be direct children of `ul` elements.
-		- `h1 + p` selects  the `p` element that comes directly after a `h1` .
+		- `ul em` selects all `em` elements that are direct or indirect ancestors of a `ul` element. 
+		- `h1 + p` selects the  first `p` element that comes directly after a `h1` .
 		- `h1 ~ p` selects all `p` elements that come after a `h1` element
 		- `h1, h2` - will apply the selector body to both `h1` and `h2` element's
 		- `ul > em` selects only the `em` elements that are direct children of `ul` elements.
@@ -234,7 +233,7 @@ $base-color: #c6538c;
 			  }
 			}
 			```
-			& represents the `p + span` in the nested selector.
+			 In the nested selector, & represents the `p + span` nesting selector.
 		- Without & - example
 			```CSS
 			p + span {
@@ -245,21 +244,21 @@ $base-color: #c6538c;
 			The nested selector would be interpret as `p + span img` meaning all `img` elements that are children of `p + span`.
 		
 			
-- Specificity
+- Specificity - A very complex topic that is not really that necessary for me now since I am a noob.
 	- 
 - Functions
 	- [Math Functions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#math_functions)
 		- `calc()`: allows you to do basic math operations in order to determine a more complex value for properties that accept `length`, `number` or `integer` type values.
 		- not supported by older browsers
 	
-	- The `transform` property has a bunch of function's as it's value.
+	- The `transform` property has a bunch of functions to define  it's value.
 		- [Transform Functions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#transform_functions)
 			- `matrix()`
 			- `translate()`
 			- `scale()`
 			- `rotate()`
 			- `skew()`
-	- `url()` - get's the resource that is stored in that URL.
+	- `url()` - gets the resource that is stored in that URL.
 	- `<gradient>` values:
 		- `linear-gradient(<color>1, <color>2)` - just a standard gradient, starts with a color at the top and transitions to the other
 		- `radial-gradient(<color>1, <color>2)` - the transition starts from the center ends at the borders.
@@ -268,7 +267,7 @@ $base-color: #c6538c;
 	- `repeat(numberOfTimes, value)` - when giving values to a property repeat the same `value` for a `numberOfTimes`.
 	- `minmax(minValue, maxValue)` - makes one property value range between `minValue` and `maxValue`
 - Rules
-	- `@import` - imports a CSS style sheet
+	- `@import` - imports a CSS style sheet - [@import](https://developer.mozilla.org/en-US/docs/Web/CSS/@import)
 	- `@media` - creates [media queries](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries)
 	- **`@namespace`** is an [at-rule](https://developer.mozilla.org/en-US/docs/Web/CSS/At-rule) that defines XML [namespaces](https://developer.mozilla.org/en-US/docs/Glossary/Namespace) to be used in a [CSS](https://developer.mozilla.org/en-US/docs/Glossary/CSS) [style sheet](https://developer.mozilla.org/en-US/docs/Web/API/StyleSheet).
 		- `ns|h1` - matches `<h1>` elements in namespace _ns_
@@ -280,9 +279,9 @@ $base-color: #c6538c;
 		- rule use example: `@namespace svg url('http://www.w3.org/2000/svg');`
 	-  
 - Box Model and Layout Related Properties
-	- `display` - sets the inner display of a element.
-		- by setting `display: flex;`. The `<p>`will still use the outer display type `block` but this changes the inner display type to `flex`. Any direct children of this box will become flex items and behave according to the [Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) specification.
-		- `display: inline-flex` creates an inline box containing some flex items.
+	- `display` - sets the inner display/layout of a element.
+		- by setting `display: flex;`. The `<p>`will still use **the outer display type `block` but this changes the inner display type to `flex`. Any direct children of this box will become flex items and behave according to the [Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) specification.**
+		- `display: inline-flex` creates an inner display of an inline box containing some flex items.
 		- `display: inline-block` - Use it if you do not want an element to break onto a new line, but do want it to respect `width` and `height` and avoid the overlapping that happens in `inline` elements. [Know More](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#using_display_inline-block)
 	- `width`
 		- `min-width` - the element's width cannot be less than this.
@@ -291,8 +290,8 @@ $base-color: #c6538c;
 		- `min-height`
 		- `max-height`
 	- `box-sizing`
-		- `border-box `value: enables a alternative box model where the `width` property value is the total with of the box model and the content's box = `width` value - 2 times `padding` value - 2 times border-width value.
-	- `margin` - shorthand property
+		- `border-box` value: enables a alternative box model where the `width` property value is the total width of the box model. Now, the content's box == `width` value (text content area size) - 2 times `padding` value - 2 times border-width value.
+	- `margin` - shorthand property that determines the margin of the element
 	- `border` - shorthand property of other shorthand properties: `border-width border-style border-color`. 
 		- `border-radius` - creates rounded corners in your border. `border-radius: horizontal-radius vertical-radius;`
 	- `padding` - shorthand property
@@ -305,7 +304,7 @@ $base-color: #c6538c;
 			- accepts `<gradient>` values, therefore your `background-image` can be a gradient.
 			- allows multiple values which will be equivalent to multiple images, as long as they are separated by a comma.
 				- all other properties that relate to this one will target the images in the order that you set them up here. The values in the other properties will be separated by commas too.
-		- `background-repeat` - controls if an how  a background image repeats itself in the background
+		- `background-repeat` - controls if and how  a background image repeats itself in the background
 			- Values: `no-repeat`, `repeat`, `repeat-x` (only in the x axis), `repeat-y`
 		- `background-size` - adjust the size of the `background image`
 			- Values: `<length>`, `<percentage>` and:
@@ -331,19 +330,20 @@ $base-color: #c6538c;
 	- The `top`, `right`, `bottom` and `left` values are mapped to `block-start`, `inline-end`, `block-end`, and `inline-start`. This is important since you cannot explain the behavior of these values without knowing this.
 - Overflow Related Properties
 	- `overflow` - defines if the overflowing content will  be hidden, leak to the rest of the webpage or accessible through scrolling. Shorthand property for (respectively): 
-		- `overflow-x` - defines the behavior for x-axis overflow only.
-		- `overflow-y` - defines the behavior for y-axis overflow only.
+			- `overflow-x` - defines the behavior for x-axis overflow only.
+			- `overflow-y` - defines the behavior for y-axis overflow only.
 		- If you want scrollbars to appear when there is more content than can fit in the box, use `overflow: auto`. This will create a BFC.
 		- The property value `scroll` also creates a BFC.
 		- Changing overflow values to `hide` content or to add scrollbars is reserved for a few select use cases (for example, where you intend to have a scrolling box).
 - Pseudo Classes/Elements Related Properties
-	- [content](https://developer.mozilla.org/en-US/docs/Web/CSS/content)` `- replaces elements content with a generated value. Usually use when targeting pseudo-elements `::before` or `::after`. Actually very cool property.
+	- `content` - replaces elements content with a generated value. Usually use when targeting pseudo-elements `::before` or `::after`. Actually very cool property.
 - Size Related Properties
 	- `width`
 	- `height`
 	- `font-size`
 	- `border-width`
 	- `inline-size`
+	- `block-size`
 - Images, Media, Form Related Properties
 	- `object-fit` - adjust the size of the object to fit it's parents box.
 			- Values: `<length>`, `<percentage>` and:
@@ -360,13 +360,14 @@ $base-color: #c6538c;
 	- `background` - determine background for table foot, head, and/or body
 	- `text-shadow` - makes the table's text cooler.
 	- `letter-spacing` - makes text more beautiful/readable.
-	- caption specific
+	- Caption Specific Properties
 		- `caption-side` - determines position of the caption's box in relation to the table's box.
 
 
 ## Tips
-	- Identify the critical default behaviors of an element in order to not change them in a way that makes the identification of the element in the webpage impossible to the user.  Like taking the default underlined bellow `a` element's from them for example. 
-- **Avoid using CSS in this way, when possible.** It is the opposite of a best practice. First, it is the least efficient implementation of CSS for maintenance. One styling change might require multiple edits within a single web page. Second, inline CSS also mixes (CSS) presentational code with HTML and content, making everything more difficult to read and understand.
+- 
+- Identify the critical default behaviors of an element in order to not change them in a way that makes the identification of the element in the webpage impossible to the user.  Like taking the default underlined bellow `a` element's from them for example. 
+- **Avoid using CSS in this way, when possible: `<p style: bla,bla,bla></p>`.** It is the opposite of a best practice. First, it is the least efficient implementation of CSS for maintenance. One styling change might require multiple edits within a single web page. Second, inline CSS also mixes (CSS) presentational code with HTML and content, making everything more difficult to read and understand.
 - You should use shorthands whenever you can.
 -  To momentarily deactivate certain selectors and/or propertys you can just wrap them up in a CSS comment.
 - Write fallback properties and property values that are supposed to ensure compatility for different browsers and old browsers before the main properties and property values inside the selector body.
@@ -385,29 +386,30 @@ There is a whole separate chapter for this topic because they are that fucking c
 -  Cascade: When two rules from the same cascade layer apply and both have equal specificity, the one that is defined last in the stylesheet is the one that will be used. 
 - Specificity: If multiple style blocks have different selectors that configure the same property with different values and target the same element, specificity decides the property value that gets applied to the element.
 	- Pseudo-elements/Pseudo-class have the same specificity of elements/class selectors.
+	- attribute selectors have same specificity as class selectors.
 	- You determine specificity with the inlineStyle-identifier(id)-class-element rule. The rule is simple, inline styles(defined with the `style` HTML attribute) always prevail over id, id prevails over class and so on. All you need to do is count the amount of id's classes and elements are there in your selector. Example:
 		the selector `li > a[href*="en-US"] > .inline-warning` has 
 		0-0-2-2 specificity.
 		
-- Inheritance: some CSS property values set on parent elements are inherited by their child elements, and some aren't.
+- Inheritance: some CSS property values set on parent elements are inherited by their child elements, and some aren't. You can change that by passing the `inherit` value to a property ensuring that the parent property value will be inherited.
 - CSS Location: the precedence of a CSS declaration depends on what stylesheet and cascade layer it is specified in. It is possible for users to set custom stylesheets to override the developer's styles.
-	- It is also possible to declare developer styles in cascade layers: you can make non-layered styles override styles declared in layers or you can make styles declared in later layers override styles from earlier declared layers. For example, as a developer you may not be able to edit a third-party stylesheet, but you can import the external stylesheet into a cascade layer so that all of your styles easily override the imported styles without worrying about third-party selector specificity.
+	- It is also possible to declare developer styles in cascade layers: you can make non-layered styles override styles declared in layers or you can make styles declared in later layers override styles from earlier declared layers. For example, as a developer **you may not be able to edit a third-party stylesheet, but you can import the external stylesheet into a cascade layer so that all of your styles easily override the imported styles without worrying about third-party selector specificity.**
 	- Conflicting declarations will be applied in the following order, with later ones overriding earlier ones:
 		1. Declarations in user agent style sheets (e.g., the browser's default styles, used when no other styling is set).
 		2. Normal declarations in user style sheets (custom styles set by a user).
 		3. Normal declarations in author style sheets (these are the styles set by us, the web developers).
 		4. Important declarations in author style sheets.
 		5. Important declarations in user style sheets.
-		6. Important declarations in user agent style sheets.
+		6. Important declarations in user agent(the browser) style sheets.
 
 ## In Practice
 
 - Inheritance Related Element Properties
 	- `inherit`: turns inheritance on or off in a child element.
 	- `initial`: sets the property values of that element to it's default values, therefore getting rid of inherited property values.
-	- r`evert`: Resets the property value applied to a selected element to the browser's default styling rather than the defaults applied to that property. This value acts like [`unset`](https://developer.mozilla.org/en-US/docs/Web/CSS/unset) in many cases.
+	- `revert`: Resets the property value applied to a selected element to the browser's default styling rather than the defaults applied to that property. This value acts like [`unset`](https://developer.mozilla.org/en-US/docs/Web/CSS/unset) in many cases.
 	- `revert-layer`: Resets the property value applied to a selected element to the value established in a previous [cascade layer](https://developer.mozilla.org/en-US/docs/Web/CSS/@layer).
-	- `unset`: esets the property to its natural value, which means that if the property is naturally inherited it acts like `inherit`, otherwise it acts like `initial`.
+	- `unset`: resets the property to its natural value, which means that if the property is naturally inherited it acts like `inherit`, otherwise it acts like `initial`.
 	- The **`all`** [shorthand](https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties) [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) property resets all of an element's properties except [`unicode-bidi`](https://developer.mozilla.org/en-US/docs/Web/CSS/unicode-bidi), [`direction`](https://developer.mozilla.org/en-US/docs/Web/CSS/direction), and [CSS Custom Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties). It can set properties to their initial or inherited values, or to the values specified in another cascade layer or stylesheet origin.
 - Specificity Related Properties/Flags/etc:
 	- !important: This flag is used to make an individual property and value pair the most specific rule, thereby overriding the normal rules of the cascade, including normal inline styles.
@@ -424,7 +426,7 @@ Text styling fundamentals - setting font, boldness, italics, line and letter spa
 
 - Text content effectively behaves like a series of inline elements, being laid out on lines adjacent to one another, and not creating line breaks until the end of the line is reached
 - General CSS Text Property Categories
-	- Font Styles - Properties that affect a text's font, e.g., which font gets applied, its size, and whether it's bold, italic, etc.
+	- Text Font Styles - Properties that affect a text's font, e.g., which font gets applied, its size, and whether it's bold, italic, etc.
 		- Web Fonts are the fonts that are supported by all browsers. They should always be in your styles as a fallback option.
 		- Default Fonts: `serif`, `sans-serif`, `monospace`(these 3 are more predictable), `cursive`, and `fantasy`. They represent a _worst case scenario_ where the browser will try its best to provide a font that looks appropriate.
 			- These are very generic and the exact font face used from these generic names can vary between each browser and each operating system
@@ -433,7 +435,7 @@ Text styling fundamentals - setting font, boldness, italics, line and letter spa
 
 
 - Styling Lists
-	- When styling lists, you need to adjust their styles so they keep the same vertical spacing as their surrounding elements (such as paragraphs and images; sometimes called vertical rhythm), and the same horizontal spacing as each other.
+	- When styling lists, you need to adjust their styles so they keep the same vertical spacing as their surrounding elements (such as paragraphs and images; sometimes called vertical rhythm), and the lists in your web page should have the same horizontal spacing as each other.
 
 
 - Styling Links - how to make use of pseudo-classes to style link states effectively and  how to style links for use in common interface features whose content varies, such as navigation menus and tabs.
@@ -515,7 +517,7 @@ Text styling fundamentals - setting font, boldness, italics, line and letter spa
 				- Default: `2.5em`== `40px`
 				- `<dl>` has no default for `padding`
 			- `dir`
-				- Default: `rtl`
+				- Default: `ltr`
 			- `<li>` html element has no default for spacing
 			- - HTML Attributes
 				- `start="number"` HTML attribute allows you to start the list item count with the number the you pass to it.
@@ -814,4 +816,3 @@ Text styling fundamentals - setting font, boldness, italics, line and letter spa
 				- [`widows`](https://developer.mozilla.org/en-US/docs/Web/CSS/widows) -
 	- Media Queries(Beginner) Related Properties
 		- `min-width, max-width and width` are used to determine viewport tresholds to change the layout of the webpage as device viewport size increases/decreases.
-		- 

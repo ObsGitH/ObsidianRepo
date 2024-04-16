@@ -93,7 +93,7 @@ In this process the registrar asks you for your real-world address. Make sure yo
 
 #### DNS refreshing
 
-DNS databases are stored on every DNS server worldwide, and all these servers refer to a few special servers called "authoritative name servers" or "top-level DNS servers" — these are like the boss servers that manage the system.
+DNS databases are stored on every DNS server worldwide, and all these servers refer to are a few special servers called "authoritative name servers" or "top-level DNS servers" — these are like the boss servers that manage the system.
 
 Whenever your registrar creates or updates any information for a given domain, the information must be refreshed in every DNS database. Each DNS server that knows about a given domain stores the information for some time before it is automatically invalidated and then refreshed (the DNS server queries an authoritative server and fetches the updated information from it). Thus, it takes some time for DNS servers that know about this domain name to get the up-to-date information.
 

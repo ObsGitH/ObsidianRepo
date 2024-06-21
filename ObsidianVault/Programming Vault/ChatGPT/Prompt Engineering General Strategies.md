@@ -1,0 +1,24 @@
+z- Clear Instructions
+	- Add as most details as you can.
+	- When writing code this is MASSIVE. Tell the AI your goal, every step to achieve that goal, every data type that you will use to achieve that goal, what programming language you want the AI to use, etc.
+	- When learning how to code is CRUCIAL for you to ask why the AI wrote the code the way it did, Why this particular function works the way it does, explain a class that you've never seen before, etc so you actually learn something and evolve as a programmer.
+	- You can pass literally walls of text as input and ask the AI to explain what the wall of text is about, this allows you to summarize gigantic books in a few paragraphs and you can extract all of the knowledge from the book in seconds/minutes. You can also tell the AI be as detailed as possible so the AI doesnt become lazy and summarizes to much leaving important details and info out of the summary. You can also tell the away to summarize every chapter of a book instead of the whole book, giving you more detailed output and reducing the chance of leaving important information out of the output.
+- Adopt a Persona
+- Specify the Format
+	- To achieve this you need to do iterative prompting: If you have a multipart question or the first anser that the AI gave you was not sufficient, keep asking the AI follow up questions and asking the AI to elaborate on it's previous answer. (Be careful to not Lead the answer)
+	- Specify if what you want is a summary, list, detailed explanation, etc.
+	- You can even create Checklists!
+	- I can make the AI come up with a daily routine for me to follow. I can make Marcus Aurelius come back from the dead and give me a routine for me to follow! I can control the routine tha Marcus Aurelius gives me to actually satisfy my needs by adding constraints like: what activities must be in my routine, how many hours for each routine, what time some activities can be done, what times they cannot be done, etc! The world really is beautiful!
+- Avoid leading the answer (force the AI to say what you want to hear)
+- Limit the scope for long complex topics
+- Zero shot prompting - Making the AI generate output without feeding it any data through input and without previous training, hoping that it will be able to come up with a suficiently good answer through the knowledge retained in it's database alone.
+- Few-shot prompting - Feeding the AI with data or training the AI (which requires you to feed data to it) in order for the AI to generate the best possible answer to the problem that you want to solve.
+	- Feeding the AI code and telling the AI later to fix it or improve it, or explain a certain part of the code to you.
+	- Feeding the AI with data about what foods you enjoy and later asking the AI what restaurant's it recommends to you base on your taste's. Something that cannot be done with zero shot prompting since the AI has no knowledge of your food taste in your database.
+- AI Hallucinations - when LLM's (Large Language Models) generate false information
+	- When a LLM does not have information about a historical figure and instead of admit it it's mistake, the AI will just hallucinate an answer instead.
+- Vector's/Text Embeddings - technique to represent textual information in a format that is easily understandable by algorithms
+	- It's act of transforming your text prompt into a high dimensional vector that is able to capture the semantic meaning of your text prompt
+	- The reason why it is so important is because the semantic meaning fo your text prompt is ultimately what you want the AI to understand, the better the AI's semantic understanding the better, more relevant, more correct, etc it's output.
+	- Example: Your text prompt is: return a word that is similar to the word food. The Ai will return a word like foot because it does not understand the meaning of the word food so it will look for similar words lexically. Text embedding through high dimensional vector's allow the AI to understanding the semantical meaning of your text prompt which is a BIG FUCKING DEAL.
+	- How to get a Text Embedding -> POST HTTP request to CHATGPT text embedding API -> the API returns the high dimensional vector -> Feed the AI with the vector -> returns output that takes the semantic meaning of your text prompt as output.

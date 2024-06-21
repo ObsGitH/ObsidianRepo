@@ -1,3 +1,0 @@
-Actually not that hard: with the scales/accidentals in the circle of 5ths, you can form 7 different scales. So to each combination of sharps/flats belong 7 scales with unique tone and diatonic harmony. (basically you change the position of the root note). With tone material of c major, you get C Ionian (=Major), D Dorian, E Phrygian, F Lydian, G Mixolydian, A Aeolian (=Minor) and B Locrian
-
-The circle of fifths therefore allows you to know the keys of all diatonic scales.

@@ -1,0 +1,139 @@
+
+Data structures are a named location where we store and organize data in a particular way. Very useful since different data has to be organized in wildly different ways.
+# Resume
+
+- Stack 
+	- Used for:
+		- undo/redo feature in editors
+		- moving back/forward in browsing history
+		 - backtracking algorithms (maze, file directories)
+		 - calling functions (call stack)
+	- Traits:
+		- Allows for element retrieval in a LIFO order'
+		- No access to an element other then the one on the top of the stack
+		- You can print all the elements of the stack
+		- Dynamic
+	- Methods:
+		- Pop() T -> removes element at the top of the stack and returns it.
+		- Push(T element)  -> Puts an item at the top of the stack
+		- Peek() T-> returns element in the top of the stack but does not remove it
+		- Empty() bool return true if stack is empty
+		- Search(T element) int -> returns the index in which the element is in the stack if not found  return -1
+- Queue
+	- Used for:
+		- Widely Used
+		- Keyboard Buffer (Buffer that holds key presses since the keys should be dealt with in the order that they are pressed)
+		- Printer Queue (Print jobs should print the pages in order)
+		- Data Structures: LinkedLists, PriorityQueues, Breadth-first search
+	- Traits:
+		- FIFO element retrieval
+		- can print all element of the queue
+		- designed to hold elements before processing linear data structures
+		- Dynamic
+	- Methods:
+		- Enqueue(T element): add element to the end of the queue
+		- Dequeue() T element : removes and returns the element at the beginning of the queue
+		- Contains(T element) bool
+		- 
+- Priority Queue
+	- Traits:
+		- FIFO data structure that sorts the elements in it according to a comparator. Therefore changing the order of the elements according to who has the biggest priority to the beggining of the queue and the lowest to the end of the queue.
+- Array
+	- Structure:
+		- Store elements in contiguous memory locations (addresses that are right next to each other)
+	- traits:
+		- Bad at inserting and deleting elements O(n). Unless it is in the end of the array O(1) since if the element is added to the end of the array no shifting of the other elements from one memory location to another is necessary.
+		- Very efficient at searching elements (contiguous memory) O(1)
+		- Potential waste of memory if the len() does not reach the capacity of the array
+		-   random access to the values is very efficient because they have an index + the values are stored contiguosly in memory: O(1). If the array was not indexable or if the values were not stored right next to each other in memory, then the random access/search would not be O(1)
+		- Static
+		- Indexable
+- DynamicArray
+	- Structure:
+		- A object that keeps track of a underlying Static array and makes sure that when the capacity of the array is reached a new array is create with 1.5 to 2 times the capacity.
+		- The elements are also stored in contiguous memory locations. The underlying static array is doing all the work.
+	- Traits:
+		- Capacity increases dinamically according to the underlying static array filling up completely
+		- Adding or removing elements to the end of the array is O(1). Unless your adding an element to the end of the array when the underlying array is at full capacity, if that is the case then the complexity is O(n)
+			- Adding or removing elements anywhere else is O(n)
+		- The underlying static array will also shrink 1.5 to 2 times and that is also a O(n) operation
+		- Very high risk of memory waste since the capacity multiplies at a 1.5 to 2 rate every time len() reaches cap().
+		- Indexable
+- LinkedList
+	- Structure:
+		- Nodes that point to each other and also hold one value each
+		- header: a pointer that points to the first node of the sequence of nodes and is the only point of access of the linked list.
+		- Tail: points to the last node of the list. Even with a tail pointer RemoveLast() is O(n)
+	- used for:
+		- Stack and Queue implementation
+		- GPS navigation
+		- music playlist (your songs probably are not stored in the order that you want them to. So to order them correctly you put them in nodes and use a LL to link the nodes in the correct order.)
+	- traits:
+		- O(1) to add and insert elements in the begging of the list and the end of the list (thanks to the tail)
+		- O(n) for searching/random access elements since you need to always navigate the nodes from the head to the desired node
+			- Indexable
+		- It is not clear if Linked lists are more efficient then arrays or array lists at inserting or deleting an element in the middle of the data structure. In one hand the array/arraylist has to shift all elements one memory address to the right or left to insert/delete and element (O(n)), on the other LinkedList still have to traverse through all the nodes to reach the desired one (O(n)) to the insertion +memory heavy compared to arrays even tho the insertion is O(1). So in most cases arrays/arraylists will be more efficient then the LLs but in other cases LLs will be more efficient than arrays.
+		- More memory heavy than Dynamic arrays
+		- Requires more memory than arraylists and arrays.
+		- There is no waste of memory. Onde node is created for every data that needs to be stored
+		- Dynamic
+	- relevant methods
+		- The only worth while ones are for adding and removing elements. And the ones that Copy the list to an array so you can do search  and  random access on that Data Strucuture with O(1) efficiency instead of O(N)
+- DoublyLinked List
+	- Structure:
+		-  Nodes (data + address to next node + address to previous node) - 1 for the next node and another 
+		- Head
+		- Tail - a pointer that points to the last element of the List
+	- traits:
+		- All of the LinkedList traits with some important diversions:
+			- Even more memory heavy than LLs since DLL Nodes have 2 pointers now.( next and previous node addresses)
+			- Not only adding but now also removing at the end of the list is now O(1) thanks to the tail + previous_node_address.
+			- Insert Remove to the beginning AND THE END of the list is O(1)
+			- Even more shit at searching and inserting and deleting in the middle than LLs
+	- methods:
+		- same as LLs
+- Hashes
+	- Hash
+		- How it is Implemented:
+			- private int HashFunction() { }
+			- int hash =  int HashFunction() 
+			- int hash = hash & 0x7FFFFFFF. (in hexadecimal F -> 1111, 7 -> 0111. Each hexadecimal letter/number represents one combination of 4 bits. There are 8 hexadecimal digits because int's size is 32 bits. Another key piece of info is that what decides if the 32 bit combination in an signed integer is going to be positive or negative is the last bit-> if it is 0 them the number is positive 0 ---> 127, if it is 1 them it is negative -1 ---> -128). Therefore we add 0111 1111 1111 1111 1111 1111 1111 1111 to the int to make sure that the number is always positive
+			- hash = hash % tablesize (to make sure the hash relates to a location in our array)
+		- LoadFactor
+			- Used to determined how full/empty our array is. LoadFactor = number of elements in the array/ array capacity. 
+		- Problems
+			- HashColisions -> The generated hash for different elements is the same. They point ot the same index of the array.
+				- linear probing -> if the hash is the same as another element, try to add the element in the index next to the current one, if that one is occupied that try the next one until you find a index  where no element is stored.
+					- Generates clumps of data making that make the linear probing operation very inneficient (O(n)). The clumps of data also force us to increase the size of our array when the loadfactor reaches 0.6 - 0.7 due to the inneficiency caused by the data clumps
+					- It also makes deleting elements very inneficient because now you need to find the element that you want to delete by iterating through the array starting at its hash and you also need to set up flags in the array for the elements that you have deleted since the data is separated by these chunks that have null in between them.
+				- quadratic probing -> same idea as linear probing but now the data is going to be more far apart since you are going to increment the hash value by a number that increases exponentially
+					- You end up with the same problems. So you also end up having to increase the capacity of the array when the loadfactor reaches 0.6 -0.7. Very inneficient use of memory and algorithms.
+					- you need to remember to do hash % tablesize again if the hash becomes bigger than the table after the quadratic probing operation
+				- double hashing -> if there is hash collision with the first hash, generate another hash for the element/object.
+					- The method that generates the second hash must be different, so you need to hash generator methods. Otherwise the same has will be generated twice.
+					- The second hash method cannot return 0. Because the value it generates will be added to the first hash.
+	- Chained Hashes
+		- A VERY GOOD data structure that  should be used all the time
+		- Chaining -> create an array where every element in the array is a linked list so we can dynamically store unlimited amounts of elements in a certain index.
+			- How does it work?
+				- Every element of the array is a linked list. Every linked list has a head. head pointer allows for O(1) add_last() and remove_last() operations. Linked list allows for an unlimited amount of values with the same hash to be stored in the array.
+				- We also take advantage of the contiguous memory and indexable traits of the array, which gives O(1) find operations as well.
+				- Infinite size
+				- The load factor is calculated with: the number of entries (total of element in all linked lists) / number of possible chains (the total amount of linked lists our array has).
+					- Used to mantain O(1) complexity of the operations.
+					- This data structure allows the load factor to be greater than 1, at the cost of making some find, add and remove operations O(n) instead of O(1). Therefore, even do load factor > 1 is possible doesnt mean we should do it.
+					- When the load factor gets too big, you should substitute your current array with a new array with double it's size. 
+						- REHASHING -> because the hashes already stored values are dependent on the size of the array and the new array has a new size, you will have recalculate the hashes of the elements that are in the array so you can store them where they should be stored in the new array.
+				- Best case cenario -> every entry generates a different hash. All the operations add remove and delete are O(1). 
+			- Problems
+				- If all the entries end up getting stored in the same linked list in the array(they have the same hash) the find operation will become O(n) instead of O(1) because we are not going to be depending on the random access of the array to find() anymore, we will be pretty much just be working with a standard linked list disguising as a more complex data structure: chained hash.
+		- Because of the efficiency of the operations (as long as the elements are generating different hashes as consistently as possible), they are the most common data structure under the hood of dictionaries in higher level languages.
+		- Getting all keys or all values will always be O(n)
+		- IsEmpty() ans IsFull() so far have been always O(1)
+		- Hash Objects
+			- Every element stored in the linked lists of the chained hash will have a key and a value. We call this key and value object a hash object
+			- The key generates the hash and decides where the hash object will be stored in the chained array
+			- Hash Objects allow for Retrieving the value, changing the value or changing the key all O(1) operations.
+			- Generic dictionaries are a chained hash that have the Key and Value fields/properties in the Hash Object as Generic
+	
+	

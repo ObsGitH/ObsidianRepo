@@ -1,0 +1,3 @@
+1. Make sure to make your project sound as fun, interesting and good as possible. This is the time to be as optimistic about yourself as you possibly can.
+2. Do not forget to almost boast about the technologies(Libraries/APIs/Packages/Frameworks), Design Patterns, Languages, Coding Ideologies(OOP, Functional Programming, Code Smells, Agile Programming, Compression Programming, Clean Code). None of it actually matters but the fucking Human Department retards fucking love it.
+3. You should write a good introduction to your program explaining what it does, but the program should be understandable by itself. That includes not only the execution of the code, but also the code itself should be understandable. Make it work, make it readable and make it fast.

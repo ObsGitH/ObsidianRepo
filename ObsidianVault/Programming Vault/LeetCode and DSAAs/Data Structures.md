@@ -135,5 +135,39 @@ Data structures are a named location where we store and organize data in a parti
 			- The key generates the hash and decides where the hash object will be stored in the chained array
 			- Hash Objects allow for Retrieving the value, changing the value or changing the key all O(1) operations.
 			- Generic dictionaries are a chained hash that have the Key and Value fields/properties in the Hash Object as Generic
-	
+- Trees
+	- Used for:
+	- Structure:
+		- Nodes: They are the most atomic part of a tree. They are the primary entities that are used to build the Tree Data Structure.
+		- Edge: responsible for connecting a Node with another Node
+		- Root: The starting point of the tree. The entry point of the tree
+		- Leaf/Leafs: The end points of the tree. They are the nodes that point to null
+		- Levels are the different generations of nodes within the Tree. Root is level 0, the root's children are level 1 and so on.
+			- The number of elements (n) in a certain Level = total of nodes in this level + sum of nodes in all previous levels
+		- Height of the Tree: number of edge nodes, of the longest path, from the node to the leaf.
+			- If you know the total amount of elements in your tree you can calculate the height of the tree with: log₂(n+1) - 1. 
+				- You can also use this formula to calculate height of a certain Tree Level if you know the number of elements of that level.
+		- child/parent/grandparent  are used to refer to different  nodes of the same hierarchy that exist in different levels/generations of said hierarchy
+		- Siblings are nodes that originated from the same parent node.
+		- a node's aunts are the siblings of it's parent node
+	- Traits:
+		- Traversing
+			- InOrder -> left root right
+			- preOrder -> root left right
+			- postOrder -> left right root
+			- levelOrder -> visit every node according to their level starting with the root. So root left right left right and so on. 
+				- the root is index 0 and the left most node of it's children is index 1
+				- to figure out a node's children there is a formula:  children_index: 2*parent_index + 1, 2*parent_index+2. Logically the parent of a child is the result of (child_index -1) / 2 rouded to lowest integer
+	- Methods:
+		- Add() -> insert the node in the available space (next available index) and then swap the node with it's parent  again and again until the node satisfies the rule of the heap.
+		- Remove() -> Remove the root. Replace the root with the last element it's children. then swap the node with it's parent  again and again until the node satisfies the rule of the heap.
+- Heaps
+	- Used for:
+	- Structure:
+		- It share similarities with trees but are not really trees. That is because heaps have a very similar structure to trees. The only difference is the 2 rules that you can create a heap with.
+		- You can have 2 types of heaps depending on the primary rule that you are using to define a heap: 
+			- Rule 1 (MaxHeap): parent is greater than it's children
+			- Rule 2 (MinHeap): parent is lesser than it's children
+				- (If we have a heap of integers, if we created a MaxHeap then the root would be a bigger number that it's children, it's children would be a bigger number than it's granchildren and so on. MinHeap would be the opposite)
+	- Traits:
 	

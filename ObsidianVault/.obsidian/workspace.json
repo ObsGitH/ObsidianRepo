@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Books/Books.md",
+                "file": "Planning/Day Planning/Plan For Next Daily Objective.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/Books.md",
+                "file": "Planning/Day Planning/Plan For Next Daily Objective.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/Books.md",
+                "file": "Planning/Day Planning/Plan For Next Daily Objective.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Books/Books.md"
+                "file": "Planning/Day Planning/Plan For Next Daily Objective.md"
               }
             }
           }
@@ -160,24 +160,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "593ea02e2120695a",
+  "active": "517d158e5c7a8811",
   "lastOpenFiles": [
+    "Planning/Day Planning/Plan For The Day.md",
+    "Programming Vault/LeetCode and DSAAs/Data Structures.md",
+    "Planning/Day Planning/Plan For Next Daily Objective.md",
+    "Planning/Projects/Project Implementation Planning/CSharp/Web Applications/BlackJack WebApp Game.md",
+    "Planning/Projects/Project Implementation Planning/Project Implementation Planning.md",
+    "Planning/ArchLinuxNotebook/ArchLinuxNotebook.md",
+    "Planning/ArchLinuxNotebook/Goals/Goals.md",
+    "Planning/Day Planning/Day Planning Structure.md",
     "Planning/My Long Term Plan To Make Money.md",
     "Untitled.canvas",
     "Planning/Projects/Project Implementation Planning/CSharp/Web Applications/Website.md",
     "Planning/Projects/GitHub Project Posting Tips.md",
     "Planning/Projects/Project Goals.md",
-    "Planning/Projects/Project Implementation Planning/CSharp/Web Applications/BlackJack WebApp Game.md",
-    "Planning/Projects/Project Implementation Planning/Project Implementation Planning.md",
-    "Planning/ArchLinuxNotebook/ArchLinuxNotebook.md",
-    "Planning/ArchLinuxNotebook/Goals/Goals.md",
     "Workout/Main Program.md",
-    "Planning/Day Planning/Plan For The Day.md",
-    "Planning/Day Planning/Plan For Next Daily Objective.md",
-    "Planning/Day Planning/Day Planning Structure.md",
     "Random/Random.md",
     "Books/Books.md",
-    "Programming Vault/LeetCode and DSAAs/Data Structures.md",
     "Books/Psychology/Beyond Good And Evil.md",
     "Random/Olavo de Carvalho.md",
     "Random/Ideas for Tattoos.md",

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Planning/My Long Term Plan To Make Money.md",
+                "file": "Planning/Projects/Project Implementation Planning/Project Implementation Planning.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Planning/Day Planning/Plan For Next Daily Objective.md",
+                "file": "Programming Vault/LeetCode and DSAAs/Big O Notation.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Planning/Day Planning/Plan For Next Daily Objective.md",
+                "file": "Planning/Projects/Project Implementation Planning/Project Implementation Planning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Planning/Day Planning/Plan For Next Daily Objective.md",
+                "file": "Planning/Projects/Project Implementation Planning/Project Implementation Planning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Planning/Day Planning/Plan For Next Daily Objective.md"
+                "file": "Planning/Projects/Project Implementation Planning/Project Implementation Planning.md"
               }
             }
           }
@@ -160,17 +159,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "517d158e5c7a8811",
+  "active": "593ea02e2120695a",
   "lastOpenFiles": [
+    "Planning/My Long Term Plan To Make Money.md",
+    "Programming Vault/LeetCode and DSAAs/Algorithms.md",
     "Planning/Day Planning/Plan For The Day.md",
-    "Programming Vault/LeetCode and DSAAs/Data Structures.md",
     "Planning/Day Planning/Plan For Next Daily Objective.md",
+    "Planning/Day Planning/Day Structure.md",
+    "Programming Vault/LeetCode and DSAAs/Big O Notation.md",
+    "Programming Vault/LeetCode and DSAAs/Data Structures.md",
     "Planning/Projects/Project Implementation Planning/CSharp/Web Applications/BlackJack WebApp Game.md",
     "Planning/Projects/Project Implementation Planning/Project Implementation Planning.md",
     "Planning/ArchLinuxNotebook/ArchLinuxNotebook.md",
     "Planning/ArchLinuxNotebook/Goals/Goals.md",
-    "Planning/Day Planning/Day Planning Structure.md",
-    "Planning/My Long Term Plan To Make Money.md",
     "Untitled.canvas",
     "Planning/Projects/Project Implementation Planning/CSharp/Web Applications/Website.md",
     "Planning/Projects/GitHub Project Posting Tips.md",
@@ -189,7 +190,6 @@
     "Untitled",
     "Planning/Employment Related/When Job Hunting Starts Read This.md",
     "Planning/Employment Related/O Que Contratantes Querem Q Eu Saiba.md",
-    "Planning/Day Planning/HowToStudy/HowToStudy.md",
     "Media",
     "Programming Vault/General Programming Concepts",
     "Media/Untitled 1.canvas",

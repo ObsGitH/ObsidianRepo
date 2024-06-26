@@ -13,7 +13,8 @@ Start BlackJack MVC webapp.
 
 1. Re-learn how to create a mvc application. DONE
 2. Try to really understand what is going on and play around with it so you feel comfortable. DONE
-3. If you have time play with razor syntax and bootstrap as well in order to spend less mental effort on this retarded markup  languages so you can focus on real programming. In Progress
+3. If you have time play with razor syntax and bootstrap as well in order to spend less mental effort on this retarded markup  languages so you can focus on real programming. In Progress : (Already learned the razor syntax. Now I am going to play with it while learning Bootstrap as well)
+	1. You should Understand what the Html class does because I think it has a very symbiotic relationship with razor
 4. If you still have time after that you should consider learning signal-r. Just learn what you need to use in your web app, usually these technologies are gigantic.
 
 

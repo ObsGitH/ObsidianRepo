@@ -30,7 +30,7 @@ for:
 - r -> Reducing Rumination compared to the previous day (BIG WIN)
 - R -> Reducing average rumination time this week compared to the previous week (HUGE WIN)
 - W -> Shutting down the rumination that you get almost always when you wake up (THIS IS A HUGE WIN)
-- w -> Pick your phone up only after an hour of gettint out of bed (BIG WIN)
+- w -> Pick your phone up only after an hour of getting out of bed (BIG WIN)
 - p -> Not watching porn this day (BIG WIN)
 - P -> Not watch porn for a whole 5 day streak (HUGE WIN)
 - s -> Sleeping for 8h today (BIG WIN)

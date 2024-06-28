@@ -4,6 +4,12 @@ Both the Structure and the bonus points should be written down in your agenda.
 
 This is where you are going to write your current method of studying in order for you to not waste any memory on it.
 
+## Programming
+- The only way to really learn things is by using them and playing with them. Just reading about them or trying to make things make sense in your head is a waste of time. If you want to learn something, you need to get your hands dirty.
+- 
+- You should push and pull from your github accounts every day. If you are going to program in your notebook, then push the changes made on the desktop to github and pull from github in the notebook
+	- You must push your changes to github at the end of the day no matter what.
+
 ## Attention
 - Life will get in the way and that is okay. Doing the bare minimum is fine, as long as you did it for a good reason. You have a lot of shit that needs to be done: haircut, university stuff, family stuff and so on. Sometimes you will be so sleep deprived that sleeping will be a valid excuse. Make sure to write down why you are doing the bare minimum in your agenda in order to avoid guilt. The only non negotiable is the bare minimum
 

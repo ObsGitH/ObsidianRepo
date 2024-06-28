@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Planning/Projects/Project Implementation Planning/Project Implementation Planning.md",
+                "file": "Planning/Day Planning/Plan For Next Daily Objective.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Planning/Projects/Project Implementation Planning/Project Implementation Planning.md",
+                "file": "Planning/Day Planning/Plan For Next Daily Objective.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Planning/Projects/Project Implementation Planning/Project Implementation Planning.md",
+                "file": "Planning/Day Planning/Plan For Next Daily Objective.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Planning/Projects/Project Implementation Planning/Project Implementation Planning.md"
+                "file": "Planning/Day Planning/Plan For Next Daily Objective.md"
               }
             }
           }
@@ -159,17 +159,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "593ea02e2120695a",
+  "active": "936b28b321ca7d5d",
   "lastOpenFiles": [
-    "Planning/My Long Term Plan To Make Money.md",
-    "Programming Vault/LeetCode and DSAAs/Algorithms.md",
     "Planning/Day Planning/Plan For The Day.md",
-    "Planning/Day Planning/Plan For Next Daily Objective.md",
     "Planning/Day Planning/Day Structure.md",
+    "Programming Vault/LeetCode and DSAAs/Algorithms.md",
+    "Planning/Day Planning/Plan For Next Daily Objective.md",
+    "Planning/Projects/Project Implementation Planning/Project Implementation Planning.md",
+    "Planning/My Long Term Plan To Make Money.md",
     "Programming Vault/LeetCode and DSAAs/Big O Notation.md",
     "Programming Vault/LeetCode and DSAAs/Data Structures.md",
     "Planning/Projects/Project Implementation Planning/CSharp/Web Applications/BlackJack WebApp Game.md",
-    "Planning/Projects/Project Implementation Planning/Project Implementation Planning.md",
     "Planning/ArchLinuxNotebook/ArchLinuxNotebook.md",
     "Planning/ArchLinuxNotebook/Goals/Goals.md",
     "Untitled.canvas",

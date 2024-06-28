@@ -30,14 +30,25 @@
 		- The probe is: pos=low+(array[high]−array[low])(x−array[low])​×(high−low)
 	- On average it is O(log(log (n))). 
 	- Worst case cenario is O(n), this happens when the data increases exponentially. Interpolation search expects a linear pattern between the data values  and it's index, if the data follows an exponential pattern than the values held by the data have high levels of discrepancy between each other and the probe becomes ineffective.
+
+
+# Sorting Algorithms
 - Bubble Sort
 	- O(n^2) time complexity.  If the data set is expected to grow overtime, then bubble sort is a terrible sort algorithm. If the data set is a relatively small and static, then bubble sort is a valid sorting algorithm.
 	- Elements are sorted to ascending order
-	- I created a bubble sort that is only O(n^2) in the worst case cenario
 - Selection Sort
 	- This is an optmization of Bubble Sort, but it is still O(n^2). Meaning that every time you can use a bubble sort you should use a selection sort instead.
 	- Keep track of the min value in each iteration of the inner loop and chance the value of the current iteration of the outer loop with the iteration of the inner loop
 - Insertion Sort
-	- 
-
-# Sorting Algorithms
+	- O(n^2) but can be O(n) in the best case cenario.
+	- Since it is O(n^2) it is okay for small data sets and horrible for big ones.
+	- Better than selection sort and bubble sort because it can be potentially O(n) and take less steps than bubble sort and selection sort.
+- Recursion
+	- It's not really an algorithm but is used in a lot of complex algorithms and tree navigation.
+	- In programming recursion is a function that calls itself, which allows you to divide a main problem into many other sub-problems that also need the same logic as the main problem to be solved.
+	- Most things that you can solve with recursion can be solved with iteration.
+		- Advantages: easier to read and write
+		- Disadvantages: uses more memory and it is sometimes slower than iterations.
+- Merge Sort
+		- O(n log n) quasilinear time complexity
+		- faster than selection, insertion and bubble sort, but uses more memory.

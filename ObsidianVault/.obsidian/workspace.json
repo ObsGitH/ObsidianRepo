@@ -11,23 +11,9 @@
             "id": "936b28b321ca7d5d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Planning/Day Planning/Plan For Next Daily Objective.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "517d158e5c7a8811",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programming Vault/LeetCode and DSAAs/Big O Notation.md",
-                "mode": "source",
-                "source": false
+                "file": "Media/Captura de Tela (97).png"
               }
             }
           }
@@ -97,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Planning/Day Planning/Plan For Next Daily Objective.md",
+                "file": "Media/Captura de Tela (97).png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Planning/Day Planning/Plan For Next Daily Objective.md",
+                "file": "Media/Captura de Tela (97).png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Planning/Day Planning/Plan For Next Daily Objective.md"
+                "file": "Media/Captura de Tela (97).png"
               }
             }
           }
@@ -159,18 +145,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "936b28b321ca7d5d",
+  "active": "593ea02e2120695a",
   "lastOpenFiles": [
-    "Planning/Day Planning/Plan For The Day.md",
+    "Media/Untitled.canvas",
+    "Media/Untitled 1.canvas",
+    "Media/Captura de Tela (97).png",
+    "Planning/ArchLinuxNotebook/ArchLinuxNotebook.md",
+    "Planning/Employment Related/O Que Contratantes Querem Q Eu Saiba.md",
     "Planning/Day Planning/Day Structure.md",
-    "Programming Vault/LeetCode and DSAAs/Algorithms.md",
     "Planning/Day Planning/Plan For Next Daily Objective.md",
+    "Planning/Day Planning/Plan For The Day.md",
+    "Programming Vault/LeetCode and DSAAs/Big O Notation.md",
+    "Programming Vault/LeetCode and DSAAs/Algorithms.md",
     "Planning/Projects/Project Implementation Planning/Project Implementation Planning.md",
     "Planning/My Long Term Plan To Make Money.md",
-    "Programming Vault/LeetCode and DSAAs/Big O Notation.md",
     "Programming Vault/LeetCode and DSAAs/Data Structures.md",
     "Planning/Projects/Project Implementation Planning/CSharp/Web Applications/BlackJack WebApp Game.md",
-    "Planning/ArchLinuxNotebook/ArchLinuxNotebook.md",
     "Planning/ArchLinuxNotebook/Goals/Goals.md",
     "Untitled.canvas",
     "Planning/Projects/Project Implementation Planning/CSharp/Web Applications/Website.md",
@@ -188,17 +178,12 @@
     "Random/Verdades.md",
     "Planning/Projects",
     "Untitled",
-    "Planning/Employment Related/When Job Hunting Starts Read This.md",
-    "Planning/Employment Related/O Que Contratantes Querem Q Eu Saiba.md",
     "Media",
     "Programming Vault/General Programming Concepts",
-    "Media/Untitled 1.canvas",
-    "Media/Untitled.canvas",
     "Planning/Projects/Project Implementation Planning/CSharp/Web Applications",
     "Planning/Projects/Project Implementation Planning/CSharp",
     "Planning/Projects/Project Implementation Planning",
     "Programming Vault/Untitled 1",
-    "Media/Captura de Tela (97).png",
     "Workout",
     "Programming Vault/LeetCode and DSAAs",
     "Programming Vault/Untitled.canvas"

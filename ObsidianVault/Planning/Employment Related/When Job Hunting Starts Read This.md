@@ -1,2 +1,0 @@
-1. Watch Joshua Fluke videos (seriously)
-2. If the interview is going to be question answer style: Brush up your theoretical C# knowledge and your html knowledge and maybe(I dont know tho), maybe brush up your sql server knowldege as well.

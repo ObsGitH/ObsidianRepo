@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "771a90ee47f3ca6c",
+        "id": "b3d4cb5378102b57",
         "type": "tabs",
         "children": [
           {
-            "id": "936b28b321ca7d5d",
+            "id": "ee2a6e19e8ec643f",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Media/Captura de Tela (97).png"
+                "file": "Programming Vault/Microsoft/ASP.NET/How To Create Custom Tag Helpers!!!.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Media/Captura de Tela (97).png",
+                "file": "Programming Vault/Microsoft/ASP.NET/How To Create Custom Tag Helpers!!!.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Media/Captura de Tela (97).png",
+                "file": "Programming Vault/Microsoft/ASP.NET/How To Create Custom Tag Helpers!!!.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Media/Captura de Tela (97).png"
+                "file": "Programming Vault/Microsoft/ASP.NET/How To Create Custom Tag Helpers!!!.md"
               }
             }
           }
@@ -147,9 +149,11 @@
   },
   "active": "593ea02e2120695a",
   "lastOpenFiles": [
+    "aseprite.exe - Atalho.lnk",
+    "Programming Vault/Microsoft/ASP.NET/How To Create Custom Tag Helpers!!!.md",
+    "Media/Captura de Tela (97).png",
     "Media/Untitled.canvas",
     "Media/Untitled 1.canvas",
-    "Media/Captura de Tela (97).png",
     "Planning/ArchLinuxNotebook/ArchLinuxNotebook.md",
     "Planning/Employment Related/O Que Contratantes Querem Q Eu Saiba.md",
     "Planning/Day Planning/Day Structure.md",
@@ -162,7 +166,7 @@
     "Programming Vault/LeetCode and DSAAs/Data Structures.md",
     "Planning/Projects/Project Implementation Planning/CSharp/Web Applications/BlackJack WebApp Game.md",
     "Planning/ArchLinuxNotebook/Goals/Goals.md",
-    "Untitled.canvas",
+    "Media/Untitled 2.canvas",
     "Planning/Projects/Project Implementation Planning/CSharp/Web Applications/Website.md",
     "Planning/Projects/GitHub Project Posting Tips.md",
     "Planning/Projects/Project Goals.md",
@@ -175,7 +179,6 @@
     "Random/Deep Work by Cal Newport.md",
     "Random/Decoracao.md",
     "Random/Conta no Cesgranrio.md",
-    "Random/Verdades.md",
     "Planning/Projects",
     "Untitled",
     "Media",
